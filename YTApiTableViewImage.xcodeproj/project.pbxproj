@@ -13,6 +13,8 @@
 		D3DB7765283584F500FA49F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DB7763283584F500FA49F5 /* Main.storyboard */; };
 		D3DB7767283584F700FA49F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DB7766283584F700FA49F5 /* Assets.xcassets */; };
 		D3DB776A283584F700FA49F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DB7768283584F700FA49F5 /* LaunchScreen.storyboard */; };
+		D3DB77722835862400FA49F5 /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DB77712835862400FA49F5 /* HeroViewController.swift */; };
+		D3EFC551283586D3005554A8 /* HeroStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EFC550283586D3005554A8 /* HeroStats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D3DB7766283584F700FA49F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3DB7769283584F700FA49F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3DB776B283584F700FA49F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DB77712835862400FA49F5 /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
+		D3EFC550283586D3005554A8 /* HeroStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroStats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				D3DB7766283584F700FA49F5 /* Assets.xcassets */,
 				D3DB7768283584F700FA49F5 /* LaunchScreen.storyboard */,
 				D3DB776B283584F700FA49F5 /* Info.plist */,
+				D3DB77712835862400FA49F5 /* HeroViewController.swift */,
+				D3EFC550283586D3005554A8 /* HeroStats.swift */,
 			);
 			path = YTApiTableViewImage;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3DB77722835862400FA49F5 /* HeroViewController.swift in Sources */,
 				D3DB7762283584F500FA49F5 /* ViewController.swift in Sources */,
 				D3DB775E283584F500FA49F5 /* AppDelegate.swift in Sources */,
+				D3EFC551283586D3005554A8 /* HeroStats.swift in Sources */,
 				D3DB7760283584F500FA49F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
